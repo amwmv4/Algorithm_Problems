@@ -12,4 +12,13 @@ public class Square {
     public State state = State.WHITE;
     public Node node;
     
+    
+    public void setState(State state){
+        this.state = state;
+    }
+    
+    public void setNode(Node node){
+        this.node = node;
+    }
+    
 }
